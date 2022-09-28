@@ -45,6 +45,7 @@ public:
 };
 
 Rectangle count (Rectangle r1, Rectangle r2, char op){
+    ///making operations with Rectangles
     Rectangle r3;
     if (op == '+') {
         r3 = r1 + r2;}
@@ -55,6 +56,7 @@ Rectangle count (Rectangle r1, Rectangle r2, char op){
 }
 
 Rectangle read(int & num, std::string expression){
+    /// reading point from string
     int x, y;
     x = 0;
     y = 0;
